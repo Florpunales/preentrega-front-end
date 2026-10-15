@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre-entrega - Florencia Puñales - </title>
+    <title>Preentrega - Florencia Puñales - </title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,15 +15,47 @@
         <h1> Registro </h1>
     </header>
 
-<form action="/registro" method="post" autocomplete="on">
-<label>Nombre: <input type="text" name="nombre" required></label>
-<br>
-<label>Correo: <input type="email" name="correo" required></label>
-<br>
-<button type="submit">Enviar</button>
+<!--formulario de contacto-->
 
-<input type="hidden" name="_redirect"
-value="https://tusitio.com/gracias.html">
+<form action="https://formspree.io/f/mjygpvkl" method="POST"> 
+  <label>Nombre: <input type="text" name="nombre" required autocomplete="on"></label>
+  <br>
+  <label>Correo: <input type="email" name="correo" required autocomplete="off"></label>
+  <br>
+  <button type="submit">Enviar</button>
+</form>
+
+<!--Productos-->
+
+<section id="productos">
+  <h2>Productos</h2>
+  <div class="productos-container">
+    <div class="card">
+      <img src="imagenes/image00001.jpeg" alt="Producto 1">
+      <p>Producto 1</p>
+    </div>
+    <div class="card">
+      <img src="imagenes/image00002.jpeg" alt="Producto 2">
+      <p>Producto 2</p>
+    </div>
+    <div class="card">
+      <img src="imagenes/image00005.jpeg" alt="Producto 3">
+      <p>Producto 3</p>
+    </div>
+  </div>
+</section>
+
+<!--Reseñas-->
+<section id="reseñas">
+  <h2>Reseñas</h2>
+  <div class="reseñas-bcn">
+    <div class="reseña">"Excelente servicio"</div>
+    <div class="reseña">"Muy recomendable"</div>
+    <div class="reseña">"Volveré pronto"</div>
+  </div>
+</section>
+
+
 </form>
 </body>
 </html>

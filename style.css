@@ -14,6 +14,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1%;
 }
 
 .card {
@@ -22,14 +23,11 @@ footer{
   flex: 1 1 200px;
   text-align: center;
 }
-.reseñas-bcn {
-  background: #ddd;
-  padding: 1rem;
-}
 
 .reseña {
   background: #ddd;
   padding: 1rem;
+  border-radius: 8px;
 }
 
 .card img {
